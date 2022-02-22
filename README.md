@@ -256,6 +256,7 @@ if dataencode.StatusCode == 200 then
                             Duration = .5
                         }
                     )
+                    game.Players.LocalPlayer:Kick("Invalid Hwid!")
                 end
             else
                 game.StarterGui:SetCore(
@@ -278,6 +279,9 @@ if dataencode.StatusCode == 200 then
                     Duration = .5
                 }
             )
+            game.Players.LocalPlayer:Kick("Whitelist - Auto Rejoin")
+            wait()
+            game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
             local hwidencode =
                 bestrequest(
                 {
@@ -296,6 +300,7 @@ if dataencode.StatusCode == 200 then
                 Duration = .5
             }
         )
+        game.Players.LocalPlayer:Kick("Invalid Key!")
     end
 elseif dataencode.StatusCode == 500 then
     game.StarterGui:SetCore(
