@@ -256,7 +256,7 @@ if dataencode.StatusCode == 200 then
                             Duration = .5
                         }
                     )
-                    game.Players.LocalPlayer:Kick("Invalid Hwid!")
+                    game.Players.LocalPlayer:Kick("Invalid Hwid! or Key!")
                     wait()
                     game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
                 end
