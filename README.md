@@ -257,6 +257,8 @@ if dataencode.StatusCode == 200 then
                         }
                     )
                     game.Players.LocalPlayer:Kick("Invalid Hwid!")
+                    wait()
+                    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
                 end
             else
                 game.StarterGui:SetCore(
