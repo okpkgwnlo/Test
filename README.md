@@ -272,6 +272,7 @@ if dataencode.StatusCode == 200 then
                 )
             end
         else
+            game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
             game.StarterGui:SetCore(
                 "SendNotification",
                 {
