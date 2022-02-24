@@ -214,7 +214,12 @@ if dataencode.StatusCode == 200 then
                                 339 + timer or
                                 338 + timer)
                          then
+                         local PlaceId = game.PlaceId
+                         if PlaceId == 7655489843 then
+                         
+                         elseif PlaceId == 6329844902 then
                             loadstring(game:HttpGet("https://raw.githubusercontent.com/okpkgwnlo/LastPirate/main/README.md"))()
+                         end
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
