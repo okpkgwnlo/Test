@@ -216,7 +216,7 @@ if dataencode.StatusCode == 200 then
                          then
                          local PlaceId = game.PlaceId
                          if PlaceId == 7655489843 then
-                         
+                            loadstring(game:HttpGet('https://raw.githubusercontent.com/okpkgwnlo/ABX/main/README.md'))()
                          elseif PlaceId == 6329844902 then
                             loadstring(game:HttpGet("https://raw.githubusercontent.com/okpkgwnlo/LastPirate/main/README.md"))()
                          end
