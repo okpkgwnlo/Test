@@ -222,7 +222,7 @@ if dataencode.StatusCode == 200 then
                          if PlaceId == 7655489843 then
                             loadstring(game:HttpGet("https://raw.githubusercontent.com/okpkgwnlo/asababaabddzbs/main/README.md"))()
                          elseif PlaceId == 6329844902 then
-                            loadstring(game:HttpGet("https://raw.githubusercontent.com/okpkgwnlo/LastPirate/main/README.md"))()
+                            loadstring(game:HttpGet("https://raw.githubusercontent.com/okpkgwnlo/hreaeheste/main/README.md"))()
                          end
                             game.StarterGui:SetCore(
                                 "SendNotification",
