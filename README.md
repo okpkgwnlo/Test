@@ -1,4 +1,8 @@
-
+if not game:IsLoaded() then 
+    repeat game.Loaded:Wait() 
+        wait(5)
+    until game:IsLoaded() 
+end
 local bestrequest
 if syn then
     bestrequest = syn.request
